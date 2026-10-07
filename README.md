@@ -1,5 +1,7 @@
 # The Instagram agent skill
 
+> Shared by [Dylan Watkins](https://www.instagram.com/dylan_j_watkins/). Originally built by Jake Schincariol ([opusjake.ai](https://opusjake.ai)), [original repo](https://github.com/Jakeschincariol/instagram-agent-skill). MIT licensed.
+
 Thirteen Claude skills that run an Instagram account. Free, MIT, no signup, no
 API key, nothing to connect.
 
@@ -22,7 +24,7 @@ see it.
 Paste this into Claude:
 
 ```
-https://github.com/Jakeschincariol/instagram-agent-skill
+https://github.com/MonsterDylan/instagram-agent-skill
 
 Install this skill, then confirm /ig-reel works.
 ```
@@ -30,14 +32,14 @@ Install this skill, then confirm /ig-reel works.
 Or do it yourself, in Claude Code:
 
 ```bash
-git clone https://github.com/Jakeschincariol/instagram-agent-skill.git
+git clone https://github.com/MonsterDylan/instagram-agent-skill.git
 cp -r instagram-agent-skill/skills/ig-* ~/.claude/skills/
 ```
 
 Or as a plugin:
 
 ```
-/plugin marketplace add Jakeschincariol/instagram-agent-skill
+/plugin marketplace add MonsterDylan/instagram-agent-skill
 /plugin install instagram-agent
 ```
 
